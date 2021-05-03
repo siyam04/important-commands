@@ -1,2 +1,1 @@
-# dev-commands
-Important commands for development.
+# Important commands for development.
