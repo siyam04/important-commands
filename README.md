@@ -445,6 +445,9 @@ sudo systemctl status postgresql
 sudo -i -u postgres
 ```
 ```
+psql
+```
+```
 postgres=# createdb dushanbe_DB
 ```
 ```
