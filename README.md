@@ -448,9 +448,6 @@ sudo -i -u postgres
 psql
 ```
 ```
-postgres=# createdb dushanbe_DB
-```
-```
 postgres=# \conninfo
 ```
 ```
@@ -462,9 +459,17 @@ sudo -u postgres psql
 ```
 ###### Set password
 ```
-CREATE USER postgres WITH PASSWORD 'postgres'
+CREATE USER postgres WITH PASSWORD 'postgres';
+```
+###### Create database
+```
+CREATE DATABASE database_name;
 ```
 ###### Set permissions
 ```
-GRANT ALL PRIVILEGES ON DATABASE dushanbe_DB TO postgres
+GRANT ALL PRIVILEGES ON DATABASE dushanbe_DB TO postgres;
+```
+###### Database list
+```
+postgres=# \l
 ```
