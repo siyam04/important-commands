@@ -313,7 +313,7 @@ docker run hello-world
 
 --------------------------------------------------------------------------------
 
-## Linux Server
+## Linux
 
 ###### Logging in as root
 ```
@@ -364,3 +364,67 @@ dpkg-reconfigure lightdm
 ```
 sudo shutdown -r now 
 ```
+###### Reboot immediately with killing all the processes
+```
+sudo shutdown -r now 
+```
+###### Reboot
+```
+sudo reboot
+```
+###### Power off
+```
+sudo poweroff
+```
+###### Systemctl
+```
+sudo systemctl status package_name
+```
+```
+sudo systemctl enable package_name
+```
+```
+sudo systemctl start package_name
+```
+```
+sudo systemctl stop package_name
+```
+```
+sudo systemctl disable package_name
+```
+###### Remove directory
+```
+sudo rm -rf dir_name
+```
+###### View file
+```
+cat file_name
+```
+###### Edit file
+```
+vim file_name
+```
+```
+gedit file_name
+```
+###### Copy
+```
+cp file.txt /backup
+```
+```
+cp file.txt /backup/new_file.txt
+```
+```
+cp file.txt dir file1.txt file2.txt dir1
+```
+###### Move
+```
+mv testfile testfile2
+```
+```
+mv /home/jack/testfile /home/jack/testfile2
+```
+```
+mv /home/jack/testfile /home/jack/Documents/
+```
+
