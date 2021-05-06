@@ -427,6 +427,10 @@ mv /home/jack/testfile /home/jack/testfile2
 ```
 mv /home/jack/testfile /home/jack/Documents/
 ```
+###### Restart apache for server
+```
+sudo systemctl restart apache2
+```
 
 --------------------------------------------------------------------------------
 
