@@ -456,3 +456,15 @@ postgres=# \conninfo
 ```
 postgres=# \q
 ```
+###### Login
+```
+sudo -u postgres psql
+```
+###### Set password
+```
+CREATE USER postgres WITH PASSWORD 'postgres'
+```
+###### Set permissions
+```
+GRANT ALL PRIVILEGES ON DATABASE dushanbe_DB TO postgres
+```
