@@ -428,3 +428,28 @@ mv /home/jack/testfile /home/jack/testfile2
 mv /home/jack/testfile /home/jack/Documents/
 ```
 
+--------------------------------------------------------------------------------
+
+## PostgreSQL Setup on Linux
+
+```
+sudo apt update
+```
+```
+sudo apt install postgresql postgresql-contrib
+```
+```
+sudo systemctl status postgresql
+```
+```
+sudo -i -u postgres
+```
+```
+postgres=# createdb dushanbe_DB
+```
+```
+postgres=# \conninfo
+```
+```
+postgres=# \q
+```
