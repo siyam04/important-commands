@@ -432,28 +432,37 @@ mv /home/jack/testfile /home/jack/Documents/
 
 ## PostgreSQL Setup on Linux
 
+###### Install
 ```
 sudo apt update
 ```
 ```
 sudo apt install postgresql postgresql-contrib
 ```
+###### Start service
+```
+sudo service postgresql start
+```
+###### Check status
 ```
 sudo systemctl status postgresql
 ```
+###### Login postgres with password
 ```
 sudo -i -u postgres
 ```
 ```
 psql
 ```
+###### Connection details
 ```
 postgres=# \conninfo
 ```
+###### Exit prompt
 ```
 postgres=# \q
 ```
-###### Login
+###### Login direct
 ```
 sudo -u postgres psql
 ```
@@ -467,7 +476,7 @@ CREATE DATABASE database_name;
 ```
 ###### Set permissions
 ```
-GRANT ALL PRIVILEGES ON DATABASE dushanbe_DB TO postgres;
+GRANT ALL PRIVILEGES ON DATABASE postgres TO postgres;
 ```
 ###### Database list
 ```
