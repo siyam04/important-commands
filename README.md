@@ -128,6 +128,10 @@ python3 -m django --version
 ```
 django-admin startproject project-name
 ```
+###### Create Project Using Current Dir
+```
+django-admin startproject project_name .
+```
 ###### Create App
 ```
 python manage.py startapp app-name
