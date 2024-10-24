@@ -1,3 +1,23 @@
+## VS Code (Mac OS)
+###### Autosuggestion
+```
+OPTION + ESC / FN + CTRL + SPACE
+```
+###### Duplicate
+```
+CTRL + D
+```
+###### Multi cursor
+```
+OPTION + Mouse Click
+```
+###### Emmet Abbreviations
+```
+!, .container, ul>li*3, div>h1+p, etc.
+```
+
+--------------------------------------------------------------------------------
+
 ## Git
 
 ###### Cloning remote
